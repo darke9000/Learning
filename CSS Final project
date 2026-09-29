@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Austin Turner | Personal Portfolio</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Austin Turner</h1>
+
+```
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="hero-content">
+    <p class="intro">WELCOME TO MY WEBSITE</p>
+    <h2>Hey, I'm Austin.</h2>
+    <p>
+      I'm learning how to build websites and applications while
+      exploring the world of programming and technology.
+    </p>
+    <a href="#projects" class="button">View My Projects</a>
+  </div>
+</section>
+```
+
+  </header>
+
+  <main>
+
+```
+<section id="about" class="section about">
+  <div class="about-text">
+    <p class="section-label">ABOUT ME</p>
+    <h2>A little about me</h2>
+
+    <p>
+      I'm Austin, a technology enthusiast who enjoys learning new
+      skills and working on creative projects. I'm currently
+      developing my programming skills, with a particular interest
+      in web development, game servers, and creating things that
+      people can interact with.
+    </p>
+
+    <p>
+      When I'm not coding, I enjoy gaming, working on personal
+      projects, and finding new ways to challenge myself and learn
+      something new.
+    </p>
+  </div>
+
+  <div class="about-card">
+    <div class="profile-icon">AT</div>
+    <h3>Austin Turner</h3>
+    <p>Developer • Gamer • Creator</p>
+  </div>
+</section>
+
+<section id="projects" class="section projects">
+  <p class="section-label">MY WORK</p>
+  <h2>Featured Projects</h2>
+  <p class="section-description">
+    Here are a few projects I've worked on while learning
+    programming and web development.
+  </p>
+
+  <div class="project-container">
+
+    <article class="project-card">
+      <div class="project-number">01</div>
+      <h3>Restaurant Menu</h3>
+      <p>
+        A responsive restaurant menu created using HTML and CSS.
+        This project helped me practice page structure, typography,
+        colors, spacing, and layouts. (it wasnt in my profile projects so i have no idea how to link this one)
+      </p>
+      <a href="#" class="project-link">View Project →</a>
+    </article>
+
+    <article class="project-card">
+      <div class="project-number">02</div>
+      <h3>Gaming Server Project</h3>
+      <p>
+        A project focused on creating and customizing features for
+        multiplayer gaming servers while learning more about
+        programming and server development. This one is in the theory stage but will provide link later.
+      </p>
+      <a href="#" class="project-link">View Project →</a>
+    </article>
+
+    <article class="project-card">
+      <div class="project-number">03</div>
+      <h3>Personal Website</h3>
+      <p>
+        This website was created as my CSS final project to
+        demonstrate what I've learned about HTML, CSS, layouts,
+        styling, and responsive design.
+      </p>
+      <a href="#" class="project-link">View Project →</a>
+    </article>
+
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="contact-content">
+    <p class="section-label">GET IN TOUCH</p>
+    <h2>Let's connect.</h2>
+
+    <p>
+      Have a question, want to talk about a project, or just want
+      to say hello? Feel free to reach out.
+    </p>
+
+    <a href="mailto:darke9000@gmail.com" class="button">
+      Send Me an Email
+    </a>
+  </div>
+</section>
+```
+
+  </main>
+
+  <footer>
+    <p>Austin Turner. Where we figure shit the fuck out.</p>
+  </footer>
+
+</body>
+</html>
 
